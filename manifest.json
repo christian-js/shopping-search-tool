@@ -1,0 +1,22 @@
+{
+    "name": "Shopping Search Tool",
+    "version": "0.1",
+    "description": "Easily and quickly search Amazon and other online stores from your selected text",
+    "manifest_version": 3,
+    "permissions": [
+        "contextMenus",
+        "tabs",
+        "storage",
+        "notifications"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup/popup.html"
+    },
+    "icons": {
+        "128": "assets/icons/icon-128.png",
+        "48": "assets/icons/icon-48.png"
+    }
+}

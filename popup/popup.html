@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="popup.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <title>Shopping Search Tool</title>
+</head>
+
+<body>
+    <h1>Set stores to search on:</h1>
+    <form action="">
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="store-title-container">
+                            <img src="../assets/icons/amazon.jpeg" width="40" height="40" alt="">
+                            <label for="amazon">Amazon</label>
+                        </div>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="amazon" id="amazon" url-base="https://amazon.com/s?k=">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="store-title-container">
+                            <img src="../assets/icons/ebay.png" width="40" height="40" alt="">
+                            <label for="ebay">eBay</label>
+                        </div>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="ebay" id="ebay" url-base="https://www.ebay.com/sch/i.html?_nkw=">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="store-title-container">
+                            <img src="../assets/icons/temu.png" width="40" height="40" alt="">
+                            <label for="tem">Temu</label>
+                        </div>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="temu" id="temu"
+                            url-base="https://www.temu.com/search_result.html?search_key=">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>

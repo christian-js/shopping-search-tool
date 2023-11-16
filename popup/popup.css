@@ -1,0 +1,58 @@
+html {
+    width: 600px;
+    height: 500px;
+}
+
+h1 {
+    font-family: Poppins, sans-serif;
+}
+
+label {
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+}
+
+button {
+    font-family: Poppins, sans-serif;
+    width: 80px;
+    height: 30px;
+    display: block;
+    background: none;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.20s;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: rgb(95, 194, 255);
+    color: white;
+}
+
+button:active {
+    background-color: rgb(38, 172, 255);
+}
+
+.store-title-container {
+    display: flex;
+    align-items: center;
+}
+
+.store-title-container img {
+    margin-right: 5px;
+}
+
+input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+}
+
+tr {
+    margin-bottom: 10px;
+}
+
+form {
+    margin: 50px;
+}
